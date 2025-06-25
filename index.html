@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Demo User — Terminal Portfolio</title>
+  <meta name="description" content="Modern hacker terminal portfolio for IT/GameDev specialist Demo User. Responsive, minimal, keyboard-friendly.">
+  <meta name="author" content="Demo User">
+  <meta name="robots" content="index,follow">
+  <link rel="icon" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" media="all">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="terminal-bg" aria-hidden="true"></div>
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <div class="avatar-circle">👾</div>
+      <div class="sidebar-user">
+        <div class="user-name">Demo User</div>
+        <div class="user-role">IT &amp; GameDev Specialist</div>
+      </div>
+    </div>
+    <nav class="sidebar-nav" aria-label="Sidebar navigation">
+      <a href="#about"><span class="nav-bullet">➜</span> about</a>
+      <a href="#experience"><span class="nav-bullet">➜</span> experience</a>
+      <a href="#stack"><span class="nav-bullet">➜</span> tech stack</a>
+      <a href="#projects"><span class="nav-bullet">➜</span> projects</a>
+      <a href="#education"><span class="nav-bullet">➜</span> education</a>
+      <a href="#skills"><span class="nav-bullet">➜</span> skills</a>
+      <a href="#contact"><span class="nav-bullet">➜</span> contact</a>
+    </nav>
+    <footer class="sidebar-footer">
+      <span class="sidebar-location">📍 Arcadia City, Cyberspace</span>
+    </footer>
+  </aside>
+  <main>
+    <section id="about" class="term-section">
+      <h2><span class="prompt">$</span> whoami</h2>
+      <pre class="term-block">
+<span class="term-green">Passionate developer</span> with a love for <span class="term-cyan">terminal style</span>, retro games, and modern technology.
+Always seeking new challenges and creative projects.
+<span class="term-yellow">Level 18 | HP: 87/100 | EXP: 9000</span>
+      </pre>
+    </section>
+    <section id="experience" class="term-section">
+      <h2><span class="prompt">$</span> cat ~/experience.txt</h2>
+      <div class="timeline">
+        <div class="timeline-entry">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">
+            <div class="timeline-title">IT Support Specialist <span class="term-at">@RetroTech</span></div>
+            <div class="timeline-date">2023–now</div>
+            <ul>
+              <li>Tech support for 200+ users</li>
+              <li>Automated tasks (Python)</li>
+              <li>Maintained Win/Linux servers</li>
+              <li>Remote troubleshooting</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-entry">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">
+            <div class="timeline-title">Cybersecurity Intern <span class="term-at">@SecureNow</span></div>
+            <div class="timeline-date">2022–2023</div>
+            <ul>
+              <li>Network monitoring/logs</li>
+              <li>Vulnerability assessment</li>
+              <li>Security audit reports</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-entry">
+          <span class="timeline-dot"></span>
+          <div class="timeline-content">
+            <div class="timeline-title">Help Desk Technician <span class="term-at">@Pixel Helpdesk</span></div>
+            <div class="timeline-date">2021–2022</div>
+            <ul>
+              <li>Resolved HW/SW issues</li>
+              <li>Jira ticketing</li>
+              <li>User training</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="stack" class="term-section">
+      <h2><span class="prompt">$</span> ./tech.sh</h2>
+      <div class="tech-grid">
+        <div><span class="tag">🪟 Windows</span><span class="desc">admin, automation</span></div>
+        <div><span class="tag">☁️ VMware/Proxmox</span><span class="desc">virtualization</span></div>
+        <div><span class="tag">🛡️ Active Directory</span><span class="desc">security, policies</span></div>
+        <div><span class="tag">🐧 Linux</span><span class="desc">bash, servers</span></div>
+        <div><span class="tag">✉️ Office365</span><span class="desc">mail, support</span></div>
+        <div><span class="tag">💻 Python/Bash</span><span class="desc">automation</span></div>
+        <div><span class="tag">🔀 Git</span><span class="desc">versioning</span></div>
+        <div><span class="tag">🎧 Service Desk</span><span class="desc">ticketing</span></div>
+        <div><span class="tag">🔒 NetSec</span><span class="desc">firewall, VPN</span></div>
+        <div><span class="tag">🕹️ Unity</span><span class="desc">game dev</span></div>
+      </div>
+    </section>
+    <section id="projects" class="term-section">
+      <h2><span class="prompt">$</span> tree ~/projects</h2>
+      <div class="proj-list">
+        <div class="proj-box">
+          <div class="proj-title"><span>📚</span> study-platform</div>
+          <div class="proj-desc">React, Firebase. Notes manager for students.</div>
+        </div>
+        <div class="proj-box">
+          <div class="proj-title"><span>⏲️</span> focus-timer</div>
+          <div class="proj-desc">JS, PWA. Productivity pixel-art app.</div>
+        </div>
+        <div class="proj-box">
+          <div class="proj-title"><span>🔍</span> ocr-web-tool</div>
+          <div class="proj-desc">Tesseract.js. OCR in browser.</div>
+        </div>
+        <div class="proj-box">
+          <div class="proj-title"><span>💬</span> discord-rpg-bot</div>
+          <div class="proj-desc">Node.js, SQLite. Text RPG bot.</div>
+        </div>
+        <div class="proj-box">
+          <div class="proj-title"><span>🕹️</span> retro-dungeon</div>
+          <div class="proj-desc">HTML5 Canvas. Pixel dungeon crawler.</div>
+        </div>
+      </div>
+    </section>
+    <section id="education" class="term-section">
+      <h2><span class="prompt">$</span> less education.txt</h2>
+      <div class="edu-table">
+        <div class="edu-row">
+          <span class="edu-ico">🎓</span>
+          <span class="edu-main">University of Example <span class="term-at">Computer Science</span></span>
+          <span class="edu-meta">2019–2023</span>
+        </div>
+        <div class="edu-row">
+          <span class="edu-ico">🏫</span>
+          <span class="edu-main">Example Technical School <span class="term-at">IT Technician</span></span>
+          <span class="edu-meta">2015–2019</span>
+        </div>
+        <div class="edu-row">
+          <span class="edu-ico">📜</span>
+          <span class="edu-main">Course: Ethical Hacking <span class="term-at">Online</span></span>
+          <span class="edu-meta">2022</span>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="term-section">
+      <h2><span class="prompt">$</span> skills --list</h2>
+      <div class="skills-bar">
+        <span class="skill-tag">⚡️ Automation</span>
+        <span class="skill-tag">🔒 Security</span>
+        <span class="skill-tag">🤝 Teamwork</span>
+        <span class="skill-tag">🚀 Innovation</span>
+        <span class="skill-tag">🕹️ GameDev</span>
+        <span class="skill-tag">💻 WebDev</span>
+      </div>
+    </section>
+    <section id="contact" class="term-section">
+      <h2><span class="prompt">$</span> echo contact</h2>
+      <div class="contact-bar">
+        <a href="mailto:demo@example.com" aria-label="Email"><span>✉️</span> demo@example.com</a>
+        <a href="https://www.linkedin.com/" aria-label="LinkedIn"><span>💼</span> LinkedIn</a>
+        <a href="https://github.com/" aria-label="GitHub"><span>🐱</span> GitHub</a>
+        <a href="https://twitter.com/" aria-label="Twitter"><span>🐦</span> Twitter</a>
+        <a href="https://discord.com/" aria-label="Discord"><span>💬</span> Discord</a>
+      </div>
+    </section>
+    <footer class="term-footer">
+      <span>&copy; 2025 Demo User. Terminal-style hacker portfolio <span class="prompt">$</span></span>
+    </footer>
+  </main>
+  <button id="topBtn" class="term-top-btn" aria-label="Go to top" title="Go to top">
+    <span class="icon-emoji" style="font-size:2em;">⬆️</span>
+  </button>
+  <script src="scripts.js"></script>
+</body>
+</html>
