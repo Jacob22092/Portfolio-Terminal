@@ -6,6 +6,8 @@ A modern, fast, and responsive hacker-terminal-style portfolio for IT, GameDev, 
 Built with semantic HTML, JetBrains Mono, and pure CSS.  
 No frameworks, zero dependencies — just fork, edit, and deploy!
 
+![Terminal Portfolio](https://i.imgur.com/gZhdQtZ.png)
+
 ---
 
 ## 🚀 Features
